@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="20f-auto-idx"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indexer">
+				<Option output="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/indexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indexer/fast">
+				<Option output="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/indexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/DSList.h">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/DSString.cpp">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/DSString.h">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/DSVector.h">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/Entry.cpp">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/Entry.h">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/Index.cpp">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/Index.h">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/main.cpp">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/subEntry.cpp">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/subEntry.h">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/test.cpp">
+			<Option target="indexer"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/input03.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

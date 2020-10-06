@@ -1,0 +1,3 @@
+/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/larry/Documents/GitHub/20f-auto-indx-larry-smu/cmake-build-debug/CMakeFiles/indexer.dir

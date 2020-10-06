@@ -1,0 +1,24 @@
+[2]
+2-3 tree: 1 
+[a]
+analysis: 1, 15 
+algorithm: 1, 15 
+[b]
+binary tree: 5, 15 
+b+ tree: 5 
+binary search tree: 1 
+[c]
+complexity: 1 
+clique: 8 
+complete binary tree: 5 
+[f]
+full binary tree: 5 
+[g]
+graph: 8 
+[h]
+heap: 15 
+[t]
+tree: 5, 8 
+  b+ tree: 5 
+  binary tree: 5, 15 
+
